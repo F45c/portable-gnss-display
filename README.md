@@ -60,3 +60,22 @@ It's kind of an extra gadget that doesn't require a phone to work and, as mentio
 
 ![](https://github.com/F45c/portable-gnss-display/blob/cbb3217f1e014a167dc5a0e0828ae718b379f3bd/images/schematic.png)
 
+
+### PCB Design
+The first thing to mention is that the 1.8inch display has enough room and isn't blocked by any components. I made sure of that through the entire development process.
+
+![](https://github.com/F45c/portable-gnss-display/blob/22866dbc0da03db641b929112facfabdd26fa9c6/images/pcb.png)
+
+#### Key Aspects of the Design
+> minimum track width = 0.3mm, most power traces = 0.5mm
+> lots of vias around the Neo and antenna connector shielding from interference
+> four mounting holes when I want to screw it onto something
+> tried to make it as small as possible
+> track from antenna to Neo Pin has 50ohm impedance
+> Ground Plane
+
+When routing on the back layer (ground plane), I tried to make short cuts between the tracks so that the ground plane works better and the path of the current is as short as possible.
+
+Here is an example of this where you can see the spacing between the different tracks on the ground plane (blue layer)
+
+![](https://github.com/F45c/portable-gnss-display/blob/52d92e75a1b3be864f21e496f2a593939a8c8e33/images/pcb_gnd_plane.png)
