@@ -79,3 +79,29 @@ When routing on the back layer (ground plane), I tried to make short cuts betwee
 Here is an example of this where you can see the spacing between the different tracks on the ground plane (blue layer)
 
 ![](https://github.com/F45c/portable-gnss-display/blob/52d92e75a1b3be864f21e496f2a593939a8c8e33/images/pcb_gnd_plane.png)
+
+### BOM
+
+| Designator | Footprint | Qty | Value | LCSC Part # |
+|---|---|---|---|---|
+| C1, C10, C13, C14, C3, C7, C8 | 0603 | 7 | 100nF | |
+| C11, C16, C2, C5, C9 | 0603 | 5 | 1uF | |
+| C12, C15, C4, C6 | 0603 | 4 | 10uF | |
+| J1 | U.FL_Hirose_U.FL-R-SMT-1_Vertical | 1 | Conn_Coaxial | |
+| J10, J11 | PinHeader_2x02_P2.54mm_Vertical | 2 | Conn_02x02_Odd_Even | |
+| J12, J9 | PinHeader_1x02_P2.54mm_Vertical | 2 | Bridge ESP-NEO 3.3V | |
+| J2 | PinHeader_1x04_P2.54mm_Vertical | 1 | Conn_01x04_Pin | |
+| J3, J6 | PinSocket_1x04_P2.54mm_Vertical | 2 | Conn_01x04_Socket | |
+| J4 | USB_A_Molex_67643_Horizontal | 1 | USB_A | |
+| J5 | PinSocket_1x08_P2.54mm_Vertical | 1 | TFT Display | |
+| J7 | PinHeader_1x02_P2.54mm_Vertical | 1 | Conn_01x02_Pin | |
+| J8 | GCT_USB4215-03-A_REVA | 1 | USB4215-03-A_REVA | |
+| L2 | INDC1005X55N | 1 | 27nH | |
+| R1 | 0603 | 1 | 10kΩ | |
+| R2, R4, R5 | 0603 | 3 | 22Ω | |
+| R3 | 0603 | 1 | 100kΩ | |
+| R6, R7 | 0603 | 2 | 5.1Ω | |
+| U2, U4, U5 | SOT95P255X145-3N | 3 | MCP1702T-3302E/CB | MCP1702T-3302E/CB |
+| U3 | QFN-32-1EP_5x5mm_P0.5mm_EP3.45x3.45mm | 1 | ESP32-C3 | |
+| U6 | ublox_NEO | 1 | NEO-M9N | |
+
