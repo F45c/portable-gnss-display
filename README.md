@@ -7,6 +7,18 @@ With the UART connections and USB connectors, you can read the position with a p
 It uses the ublox neo m9n chip with an active antenna and an Esp32-C3 that extracts the position, calculates the tiles to draw on the screen and draws them together with a position mark on the display.
 The tiles are stored on sd card slot in the tft display and are pre-downloaded on set sd card for a small area around my home town.
 
+### Finished Module
+I finished the PCB assembly. Now I just have to download all the tiles I want to display and the project is done!
+
+(And NO, I won't leak my coordinates)
+
+<img src="https://github.com/F45c/portable-gnss-display/blob/bd5720b20900144298abf5cfa251b87a35412e71/images/pcb_finished.png" width=40%>
+
+<img src="https://github.com/F45c/portable-gnss-display/blob/bd5720b20900144298abf5cfa251b87a35412e71/images/pcb_assembled.png" width=40%>
+
+
+
+
 #### Technical Details
 > The Neo M9N can be directly connected via USB-A Connector to an external device
 >
