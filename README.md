@@ -8,15 +8,23 @@ It uses the ublox neo m9n chip with an active antenna and an Esp32-C3 that extra
 The tiles are stored on sd card slot in the tft display and are pre-downloaded on set sd card for a small area around my home town.
 
 ### Finished Module
-I finished the PCB assembly. Now I just have to download all the tiles I want to display and the project is done!
+I finished the PCB assembly. It was difficult to solder the tiny components and especially the SMD parts. Thankfully, with the help of solder flux and a heat gun, I was able to solder everything on the pcb.
+The most annoying component was the USB-C connector because the pins are so tiny and would always bridge multiple together.
 
-(And NO, I won't leak my coordinates)
+I downloaded a few tiles where I live and put them on an sd card. I had to censor the map mostly so I don't leak my address. The example image is below.
+
+It's a very nice device but after all, I still use my phone more often than this.
+
 
 <img src="https://github.com/F45c/portable-gnss-display/blob/bd5720b20900144298abf5cfa251b87a35412e71/images/pcb_finished.png" width=40%>
 
 <img src="https://github.com/F45c/portable-gnss-display/blob/bd5720b20900144298abf5cfa251b87a35412e71/images/pcb_assembled.png" width=40%>
 
+(Redacted display because it shows my home location)
 
+In the center, on the red + symbol is the gps position and on top is the N for north.
+
+<img src="https://github.com/F45c/portable-gnss-display/blob/2e823edb7e2943eeb44d0c3202f759fba3276c8b/images/final_test.png" width=60%>
 
 
 #### Technical Details
