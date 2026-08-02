@@ -107,3 +107,4 @@ Here is an example of this where you can see the spacing between the different t
 | PCB | PCB board | 1 | 5.50 | | JLCPCB |
 | Display | 1.8 inch TFT display | 1 | 6.47 | [Link](https://www.amazon.com/Chiffonade-Display-Interface-128x160-Resolution/dp/B0FQJX2SJV/) | Amazon |
 | Antenna | GPS Antenna | 1 | 7.99 | [Link](https://www.amazon.com/28dB-High-Active-Antenna-Built/dp/B0C3H6BKHC) | Amazon |
+| PCBA | PCB Assembly Parts | 1 | 33.27 | | |
